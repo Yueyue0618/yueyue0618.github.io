@@ -1,0 +1,163 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+}
+#container{
+	width: 1440px;
+	height: 750px;
+	margin: auto;
+	background-color: #3759c3;
+}
+.left{
+	position: relative;
+	float: left;
+	height: 750px;
+	width: 450px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	
+	background-size: 100% 100%;
+}
+.right{
+	float: left;
+	height: 651px;
+	width: 890px;
+	padding: 99px 40px 0px 0px;
+	
+}
+.right .center img{
+	height: 556px;
+}
+.center{
+	position: relative;
+	float: left;
+	width: 810px;
+	height: 556px;
+	text-align: center;
+	background-color: #fff;
+}
+.link{
+	position: absolute;
+	top:170px;
+	left: 381px;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	
+}
+
+.t1{
+	background-image:url(../img/1bg.jpg) ;
+}
+.t2{
+	background-image:url(../img/2bg.jpg);
+}
+.t3{
+	background-image:url(../img/3bg.jpg);
+}
+.t4{
+	background-image:url(../img/5bg.jpg);
+}
+.t5{
+	
+}
+.music{
+	margin: 250px auto;
+	width: 600px;
+	height: 60px;
+	background: url(../img/music.png) no-repeat 0 0/100% 100%;
+}
+.music audio{
+	float: left;
+	width: 500px;
+	margin-left: 10px;
+	height: 55px;
+	opacity: 0;
+}
+.t2 .link{
+	top: 242px;
+}
+.t3 .link{
+	top: 420px;
+}
+.t5 .center{
+		position: relative;
+}
+.t5 .video{
+	margin-top: 90px;
+}
+.l1{
+	position: absolute;
+	width: 70px;
+	height: 120px;
+	top: 185px;
+	left: 200px;
+	display: inline-block;
+}
+.l2{
+	position: absolute;
+	width: 70px;
+	height: 120px;
+	top: 200px;
+	left: 540px;
+	display: inline-block;
+}
+.l3{
+	position: absolute;
+	width: 110px;
+	height: 50px;
+	top: 155px;
+	left: 340px;
+	display: inline-block;
+}
+
+
+.hubei{
+	position: absolute;
+	top:310px;
+	left: 170px;
+	display: inline-block;
+	width: 110px;
+	height: 30px;
+	
+}
+.nav{
+	float: left;
+	width: 40px;
+	padding-right: 15px;
+	height: 556px;
+	background-color: #fff;
+}
+
+.right .meun{
+	margin: 15px 0;
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-image: url(../img/menu.png);
+	background-size: 100% 100%;
+}
+.nav li{
+	position: relative;
+	right: 50px;
+	width: 120px;
+	margin-top: 110px;
+	font-size: 18px;
+	height: 40px;
+	margin-bottom: 150px;
+	text-align: center;
+	transform: rotate(90deg);
+}
