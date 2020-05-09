@@ -225,8 +225,9 @@ video{
 		    background-color: #fff;
 	}
 	.link{
-		position:absolute ;
-		top: 0;
+		position:absolute;
+		top: 0px;
+		left: 0px;
 		display: block;
 		width:100%;
 		height: 100%;
@@ -264,12 +265,6 @@ video{
 		margin-left: 3px;
 		height: 35px;
 		opacity:0;
-	}
-	.t2 .link{
-		top: 242px;
-	}
-	.t3 .link{
-		top: 420px;
 	}
 	.t5 .center{
 			position: relative;
